@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    // Start is called before the first frame update
+    Animator animator;
+    CharacterController character;
+    [SerializeField] Transform mainCamera;
+    [SerializeField] float trueSpeed = 10f;
     void Start()
     {
-        
+        animator = gameObject.GetComponent<Animator>();
+        character = gameObject.GetComponent<CharacterController>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        Vector3 move = new Vector3(Input.GetAxis("Horizontal") * trueSpeed, 0, Input.GetAxis("Vertical") * trueSpeed);
+
+        character.Move(move * Time.deltaTime);
+
+        animator.SetBool("isRun", Input.GetKey(KeyCode.W));
+        animator.SetBool("isDance", Input.GetKey(KeyCode.X));
     }
 }
