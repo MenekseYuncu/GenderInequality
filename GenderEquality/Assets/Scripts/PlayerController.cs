@@ -8,15 +8,14 @@ public class PlayerController : MonoBehaviour
     CharacterController character;
     [SerializeField] Transform mainCamera;
     [SerializeField] float trueSpeed = 15f;
-    [SerializeField] float jumpSpeed = 3.6f;
-    [SerializeField] Vector3 move = Vector3.zero;
-    [SerializeField] float gravity = 9.81f;
-    [SerializeField] float horizontalInput;
-    [SerializeField] float forwardInput;
+    [SerializeField] float jumpforce = 10f;
+    //Rigidbody rigidbody;
+
     void Start()
     {
         animator = gameObject.GetComponent<Animator>();
         character = gameObject.GetComponent<CharacterController>();
+        //rigidbody = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -28,27 +27,9 @@ public class PlayerController : MonoBehaviour
 
         animator.SetBool("isRun", Input.GetKey(KeyCode.W));
         animator.SetBool("isDance", Input.GetKey(KeyCode.X));
-
-        horizontalInput = Input.GetAxis("Horizontal");
-        forwardInput = Input.GetAxis("Vertical");
-
-        hareket();
+        animator.SetBool("isJump", Input.GetKey(KeyCode.Space));
     }
+    
 
-    void hareket()
-    {
-        // zýplama kodu
-        if (character.isGrounded)
-        {
 
-            move = transform.right * horizontalInput + transform.forward * forwardInput;
-
-            if (Input.GetButton("Jump"))
-            {
-                move.y = jumpSpeed;
-            }
-        }
-        move.y -= gravity * Time.deltaTime;
-        character.Move(move * trueSpeed * Time.deltaTime);
-    }
 }
