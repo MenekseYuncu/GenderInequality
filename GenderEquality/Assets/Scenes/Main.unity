@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 389445551}
   - component: {fileID: 389445553}
   - component: {fileID: 389445552}
+  - component: {fileID: 389445554}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -207,6 +208,19 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &389445554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 389445550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a5d24da9fc277a4d8269bc8b2393959, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1179458318}
 --- !u!1001 &614445896
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -283,11 +297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 389445551}
   trueSpeed: 7
-  jumpSpeed: 3.6
-  move: {x: 0, y: 0, z: 0}
-  gravity: 5
-  horizontalInput: 0
-  forwardInput: 0
+  jumpforce: 10
 --- !u!65 &1179458320
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -431,12 +441,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 389445551}
-  trueSpeed: 10
-  jumpSpeed: 3.6
-  move: {x: 0, y: 0, z: 0}
-  gravity: 9.81
-  horizontalInput: 0
-  forwardInput: 0
+  trueSpeed: 7
+  jumpforce: 10
 --- !u!65 &1559558403
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -9,13 +9,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Transform mainCamera;
     [SerializeField] float trueSpeed = 15f;
     [SerializeField] float jumpforce = 10f;
-    Rigidbody rb;
+    //Rigidbody rigidbody;
 
     void Start()
     {
         animator = gameObject.GetComponent<Animator>();
         character = gameObject.GetComponent<CharacterController>();
-        rb = GetComponent<Rigidbody>();
+        //rigidbody = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
