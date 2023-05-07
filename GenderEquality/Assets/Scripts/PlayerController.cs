@@ -8,10 +8,9 @@ public class PlayerController : MonoBehaviour
     CharacterController character;
     [SerializeField] Transform mainCamera;
     [SerializeField] float trueSpeed = 20f;
-    [SerializeField] float jumpforce = 15f;
+    [SerializeField] float jumpforce = 25f;
     //Rigidbody rigidbody;
-    bool turn = false;
-
+ 
     void Start()
     {
         animator = gameObject.GetComponent<Animator>();
@@ -30,10 +29,8 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("isDance", Input.GetKey(KeyCode.X));
         animator.SetBool("isJump", Input.GetKey(KeyCode.Space));
 
-        if (Input.GetKeyDown(KeyCode.S))
-        {
 
-        }
+
     }
     
 
