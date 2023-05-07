@@ -193,6 +193,7 @@ GameObject:
   - component: {fileID: 3281498757399158010}
   - component: {fileID: 1884160708797961055}
   - component: {fileID: 4449861440986572693}
+  - component: {fileID: 4996058980951862371}
   m_Layer: 0
   m_Name: toolPickaxe
   m_TagString: Obstacle
@@ -266,6 +267,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4996058980951862371
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2792769530267027008}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.17860827, y: 0.23999998, z: 0.038699992}
+  m_Center: {x: 0, y: 0.11999999, z: -0.00000011920929}
 --- !u!1 &2877032463553744898
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,6 +424,7 @@ GameObject:
   - component: {fileID: 3980008985822875383}
   - component: {fileID: 41674242371797330}
   - component: {fileID: 2842046007742182808}
+  - component: {fileID: 6346876830842217469}
   m_Layer: 0
   m_Name: kitchenSink
   m_TagString: Obstacle
@@ -487,6 +502,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6346876830842217469
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4354987133680063565}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.3, y: 4.9, z: 4.5}
+  m_Center: {x: 2.15, y: 2.45, z: 2.25}
 --- !u!1 &4691525613035633371
 GameObject:
   m_ObjectHideFlags: 0
@@ -498,6 +526,7 @@ GameObject:
   - component: {fileID: 6396603134244194228}
   - component: {fileID: 3899368410035233163}
   - component: {fileID: 108421279338583250}
+  - component: {fileID: 3329633260507290125}
   m_Layer: 0
   m_Name: door
   m_TagString: Untagged
@@ -571,6 +600,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3329633260507290125
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4691525613035633371}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.7631156, y: 2.780698, z: 0.4}
+  m_Center: {x: 1.8815597, y: 1.3903486, z: -0.09999238}
 --- !u!1 &5195457771510171477
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,6 +624,7 @@ GameObject:
   - component: {fileID: 5892696546478930490}
   - component: {fileID: 4548365186587499525}
   - component: {fileID: 613453226013583708}
+  - component: {fileID: 6482917795874543050}
   m_Layer: 0
   m_Name: door
   m_TagString: Untagged
@@ -655,6 +698,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6482917795874543050
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5195457771510171477}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.7631156, y: 2.780698, z: 0.4}
+  m_Center: {x: 1.8815578, y: 1.3903486, z: -0.10000001}
 --- !u!1 &5238828010098033604
 GameObject:
   m_ObjectHideFlags: 0
@@ -751,6 +807,7 @@ GameObject:
   - component: {fileID: 1990506927630421415}
   - component: {fileID: 4199429978233733131}
   - component: {fileID: 8077645803586014075}
+  - component: {fileID: 3722001068272026178}
   m_Layer: 0
   m_Name: toolPickaxe
   m_TagString: Obstacle
@@ -824,6 +881,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3722001068272026178
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5255837386330216233}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.17860827, y: 0.24000002, z: 0.0387}
+  m_Center: {x: 0, y: 0.12000001, z: 0}
 --- !u!1 &7451439873720948460
 GameObject:
   m_ObjectHideFlags: 0
@@ -1189,6 +1259,7 @@ GameObject:
   - component: {fileID: 8241419789614658636}
   - component: {fileID: 5039734929497537513}
   - component: {fileID: 7067356722217930531}
+  - component: {fileID: 8813674098876400779}
   m_Layer: 0
   m_Name: kitchenSink (1)
   m_TagString: Obstacle
@@ -1266,6 +1337,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8813674098876400779
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8724799651672977142}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.3, y: 4.9, z: 4.5}
+  m_Center: {x: 2.15, y: 2.45, z: 2.25}
 --- !u!1 &8771112179081538151
 GameObject:
   m_ObjectHideFlags: 0
@@ -1376,8 +1460,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9137379045612908087}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 66.974106, y: 14.0199585, z: 6.2516785}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
