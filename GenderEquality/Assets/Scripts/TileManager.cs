@@ -6,11 +6,9 @@ public class TileManager : MonoBehaviour
 {
     private List<GameObject> activeTiles = new List<GameObject>();
     public GameObject[] tilePrefabs;
-    //[SerializeField] Transform playerTransform;
-  
     public float tileLength = 180f;
     public int numberOfTiles = 7;
-    //public int totalNumOfTiles = 7;
+    //public int totalNumOfTiles = 8;
 
     public float zSpawn = 0f;
 
@@ -35,7 +33,7 @@ public class TileManager : MonoBehaviour
     {
         if(playerTransform.position.z - 300> zSpawn - (numberOfTiles * tileLength))
         {
-            SpawnTile(index: Random.RandomRange(0, tilePrefabs.Length));
+            SpawnTile(index: Random.Range(0, tilePrefabs.Length));
             DeleteTile();
         }
     }

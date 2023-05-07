@@ -541,7 +541,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tilePrefabs:
-  - {fileID: 2506896446785042463, guid: 07a797f856c501d4896777f7a6f802e9, type: 3}
   - {fileID: 6834991354193688880, guid: 4dcd74462f98b8a49a93fb0917503fa2, type: 3}
   - {fileID: 573981689272698151, guid: a5d888fadccca4143aaf9b3d8678313d, type: 3}
   - {fileID: 9137379045612908087, guid: c65d1d168a85b434db1754bca9e6accb, type: 3}
@@ -549,7 +548,7 @@ MonoBehaviour:
   - {fileID: 6054713944864073024, guid: d34f8d1864cd4f84aaf6be8cb6986547, type: 3}
   - {fileID: 895506891104123013, guid: a36d2f4711bd2b6498f63322f58b94b1, type: 3}
   tileLength: 150
-  numberOfTiles: 7
+  numberOfTiles: 6
   zSpawn: 0
   playerTransform: {fileID: 1179458324}
 --- !u!4 &1300955581
