@@ -436,7 +436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 389445551}
-  trueSpeed: 27
+  trueSpeed: 40
   jumpforce: 30
 --- !u!65 &1179458320
 BoxCollider:
@@ -661,7 +661,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 389445551}
-  trueSpeed: 27
+  trueSpeed: 40
   jumpforce: 30
 --- !u!65 &1559558403
 BoxCollider:
