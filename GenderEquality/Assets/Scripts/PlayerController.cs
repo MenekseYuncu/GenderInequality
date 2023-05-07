@@ -10,12 +10,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float trueSpeed = 20f;
     [SerializeField] float jumpforce = 25f;
     //Rigidbody rigidbody;
- 
+    private Vector3 oldPosition;
+
     void Start()
     {
         animator = gameObject.GetComponent<Animator>();
         character = gameObject.GetComponent<CharacterController>();
         //rigidbody = GetComponent<Rigidbody>();
+        oldPosition = transform.position;
     }
 
     // Update is called once per frame
@@ -29,7 +31,12 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("isDance", Input.GetKey(KeyCode.X));
         animator.SetBool("isJump", Input.GetKey(KeyCode.Space));
 
+        if (transform.position.z < oldPosition.z)
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y, oldPosition.z);
+        }
 
+        oldPosition = transform.position;
 
     }
     
