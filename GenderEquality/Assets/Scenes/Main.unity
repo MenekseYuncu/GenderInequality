@@ -215,7 +215,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 389445550}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6a5d24da9fc277a4d8269bc8b2393959, type: 3}
   m_Name: 
@@ -933,12 +933,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tilePrefabs:
+  - {fileID: 478927100952705575, guid: 07a797f856c501d4896777f7a6f802e9, type: 3}
   - {fileID: 6834991354193688880, guid: 4dcd74462f98b8a49a93fb0917503fa2, type: 3}
   - {fileID: 573981689272698151, guid: a5d888fadccca4143aaf9b3d8678313d, type: 3}
-  - {fileID: 9137379045612908087, guid: c65d1d168a85b434db1754bca9e6accb, type: 3}
-  - {fileID: 1275777028924151699, guid: 00b843430ceaada4fb036f880a9dbfd3, type: 3}
-  - {fileID: 6054713944864073024, guid: d34f8d1864cd4f84aaf6be8cb6986547, type: 3}
-  - {fileID: 895506891104123013, guid: a36d2f4711bd2b6498f63322f58b94b1, type: 3}
+  - {fileID: 5869658799435675479, guid: c65d1d168a85b434db1754bca9e6accb, type: 3}
+  - {fileID: 2074638064279794566, guid: 00b843430ceaada4fb036f880a9dbfd3, type: 3}
+  - {fileID: 284939878480797275, guid: d34f8d1864cd4f84aaf6be8cb6986547, type: 3}
+  - {fileID: 7130369003035033364, guid: a36d2f4711bd2b6498f63322f58b94b1, type: 3}
+  - {fileID: 2085097845107323016, guid: 25b8d2d46ea34a142981dda26cc45203, type: 3}
+  - {fileID: 6957685474573947452, guid: 91c905fcaf18f464ea2569d8b6ae611c, type: 3}
+  - {fileID: 432398239649086948, guid: 7c563ef849e13c644a36583a84252203, type: 3}
+  - {fileID: 364559947213892453, guid: adf35ecf61da6354580da3cc281f6d4f, type: 3}
   tileLength: 150
   numberOfTiles: 6
   zSpawn: 0

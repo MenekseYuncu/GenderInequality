@@ -284,7 +284,7 @@ GameObject:
   - component: {fileID: 1875162844920185586}
   m_Layer: 0
   m_Name: "sol\xE7it"
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -538,7 +538,7 @@ GameObject:
   - component: {fileID: 7108889734659644673}
   m_Layer: 0
   m_Name: "sa\u011F\xE7it"
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1190,7 +1190,7 @@ GameObject:
   - component: {fileID: 852285011007634355}
   m_Layer: 0
   m_Name: Cube.004
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
