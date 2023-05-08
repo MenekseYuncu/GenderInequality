@@ -39,7 +39,12 @@ public class PlayerController : MonoBehaviour
         oldPosition = transform.position;
 
     }
-    
-
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if(hit.transform.tag == "Obstacle")
+        {
+            PlayerManager.gameOver = true;
+        }
+    }
 
 }
